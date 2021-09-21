@@ -1,0 +1,48 @@
+#lorem{
+	background: black;
+	color: white;
+	border: 3px solid red;
+	border-radius: 10px;
+	padding: 13px 13px 13px 20px;
+	margin: red 5px;
+	font-style: italic;
+}
+h2{
+	font-variant: small-caps;
+	text-align: center;
+}
+#new{
+	background: #006000;
+	color: white;
+	position: absolute;
+	top: 125px;
+	left: 10px;
+	width: 700px;
+	font-size: 2em;
+	z-index: 0;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+#carry{
+	position: fixed;
+	top: -12px;
+	border: 3px solid red;
+	border-radius: 10px;
+	background: black;
+	color: pink;
+	width: 150px;
+	z-index: 1;
+
+}
+#para2{
+	background:orange;
+	color: black;
+	border: 5px solid black;
+	position: relative;
+	width: 700px;
+	font-size: 2em;
+	z-index: 0;
+	border-radius: 10px;
+	left: 750px;
+	top:5px;
+}

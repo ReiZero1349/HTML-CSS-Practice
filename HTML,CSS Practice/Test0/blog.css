@@ -1,0 +1,32 @@
+
+div{
+	background: orange;
+	color: solid black;
+}
+.quote{
+	font-family: Bahnschrift;
+}
+#History {
+	font-family: rockwell,arial narrow;
+}
+#Architecture {
+	font-family: rockwell,arial narrow;
+}
+.post{
+
+}
+span#wonders{
+	text-transform: uppercase;
+}
+h4 + p{
+	background: #ff8000;
+}
+p[class]{
+	background:#ff6600 ;
+}
+.pic{
+  display: block;
+  margin: auto;
+  margin-right: auto;
+  width: 50%;
+}

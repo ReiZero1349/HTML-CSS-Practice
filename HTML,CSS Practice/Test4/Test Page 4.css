@@ -1,0 +1,55 @@
+ol{
+	width: 100px;
+	padding: 10px;
+	margin: 100px auto;
+	background:#F28000 ;
+	color: black;
+	font-size: xx-large;
+	max-height: 200px;
+	overflow: auto;
+}
+#one:hover{
+	background: black;
+	color: white;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+	cursor: pointer;
+}
+#one{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+a:active{
+	background: black;
+	color: white;
+}
+a:visited{
+	/* needs database */
+}
+h4:hover{
+	display: block;
+	background: #0FE537;
+	cursor: progress;
+}
+h4:after{
+	content: "  aftertext";
+}
+li:nth-child(2n){
+	color: purple;
+	background: orange;
+	/* first-child/last-child,first-line,first-letter...*/
+}
+#two{
+	text-decoration: underline;
+	white-space: pre;
+	/*no wrap,pre-wrap..*/
+	direction: rtl;
+	border: 2px solid black;
+	background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(97,222,224,0.8802871490393032) 50%, rgba(19,194,230,1) 100%);
+}
+body{
+	background: rgb(228,24,24);
+background: linear-gradient(90deg, rgba(228,24,24,1) 1%, rgba(245,172,26,0.9587185215883228) 51%, rgba(246,243,25,1) 99%);
+	/*background-image:;
+	background-repeat: no-repeat;*/
+}
